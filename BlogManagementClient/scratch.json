@@ -1,0 +1,6 @@
+{
+  "Id": 2,
+  "Name": "Mac",
+  "ContactDetails": "{\"Region\":\"Europe\",\"Addresses\":[{\"Address1\":\"Burns Cottage\",\"Address2\":\"1145 Newlands\",\"City\":\"Bettyhill\",\"Country\":\"Scotland\",\"PostalCode\":\"KW99 7RU\",\"Primary\":true},{\"Address1\":\"2298 Main St\",\"Address2\":null,\"City\":\"Ailsworth\",\"Country\":\"England\",\"PostalCode\":\"PE99 7RU\",\"Primary\":false},{\"Address1\":\"765 Meadow Drive\",\"Address2\":null,\"City\":\"Healing\",\"Country\":\"England\",\"PostalCode\":\"DN99 7RU\",\"Primary\":false}],\"EmailAddresses\":[{\"Address\":\"mac@example.com\",\"Primary\":true},{\"Address\":\"cam@example.com\",\"Primary\":false}],\"PhoneNumbers\":[{\"CountryCode\":44,\"Number\":\"01632 12345\",\"Primary\":false,\"Type\":\"Home\"},{\"CountryCode\":44,\"Number\":\"01632 12346\",\"Primary\":true,\"Type\":\"Mobile\"},{\"CountryCode\":44,\"Number\":\"01632 12347\",\"Primary\":false,\"Type\":\"Work\"}]}",
+  "Orders": []
+}

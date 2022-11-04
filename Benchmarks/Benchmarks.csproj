@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <RootNamespace />
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="BenchmarkDotNet" Version="0.13.2" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.0-rc.2.22472.3" />
+        <PackageReference Include="Microsoft.Extensions.Http" Version="7.0.0-rc.2.22472.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Using Include="Microsoft.Extensions.DependencyInjection" />
+        <Using Include="Microsoft.Extensions.Hosting" />
+        <Using Include="System.Text.Json" />
+        <Using Include="System.Web" />
+        <Using Include="BenchmarkDotNet.Running" />
+        <Using Include="BenchmarkDotNet.Attributes" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Database\Database.csproj" />
+      <ProjectReference Include="..\BlogManagementClient\BlogManagementClient.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Reference Include="Model">
+          <HintPath>..\..\BlogManagementApiFull\Model\bin\Release\netstandard2.0\Model.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+
+</Project>
