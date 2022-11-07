@@ -1,5 +1,7 @@
 using System.Net;
 
+namespace ServiceTests;
+
 public class PostsServiceTest
 {
     private readonly PostsService _postsService;
@@ -105,19 +107,4 @@ public class PostsServiceTest
             }
         }
     }
-
-    // [Fact]
-    // public async Task Can_delete_failed_posts()
-    // {
-    //     var postsBefore = (await _postsService.GetPosts()).ToList();
-    //     Assert.Equal(0, postsBefore.Count(p => p.Blog.Name == "Blog_004" && p.Archived));
-    //
-    //     await _postsService.ArchivePosts("Blog_004", 2010);
-    //     var postsAfterArchive = (await _postsService.GetPosts()).ToList();
-    //     Assert.Equal(5, postsAfterArchive.Count(p => p.Blog.Name == "Blog_004" && p.Archived));
-    //
-    //     await _postsService.DeleteFailedPosts("Blog_004", 3);
-    //     var postsAfterDelete = (await _postsService.GetPosts()).ToList();
-    //     Assert.Equal(2, postsAfterDelete.Count(p => p.Blog.Name == "Blog_004" && p.Archived));
-    // }
 }

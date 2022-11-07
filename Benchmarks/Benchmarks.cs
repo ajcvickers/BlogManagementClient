@@ -56,7 +56,7 @@
                 BlogId = 1,
                 PublishedOn = DateTime.UtcNow,
                 Title = "Updated Post",
-                Content = "Yadda Yadda Yadda"
+                Content = "More Yadda Yadda Yadda"
             });
     }
 
